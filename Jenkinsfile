@@ -2,7 +2,7 @@
 pipeline {
   agent any
   environment {
-      registry = "mdittrichlp/openvpn.client"
+      registry = "mdittrichlp/openvpn-client"
       registryCredential = 'dockerhubmDittrich'
       dockerImage = ''
   }
